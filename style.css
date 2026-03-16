@@ -1,0 +1,10 @@
+header h1{
+    font-size: xxx-large;
+    align-items: center;
+    text-align: center;color: rgb(0, 0, 0);
+}
+header{
+
+    background-color: rgb(76, 104, 187);
+    padding: 25px;
+}
