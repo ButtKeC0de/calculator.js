@@ -51,11 +51,19 @@ section{
     border-radius: 20px;
     color: aliceblue;
     font-size: 2.5rem;
-    font
-    
-}
-.num{
+    border:solid 5px  rgb(67, 136, 79);
+     }
 
-
-
+.botoes{
+        grid-template-columns:repeat(4,1fr) ;
+        display: grid;
+        padding: 10px;
+        gap: 5px;
+    }
+button{
+    background-color: rgb(9, 65, 25);
+    color: white ;
+    border-radius:  1000px;
+    height: 50px;
+    padding-bottom: 5px;
 }

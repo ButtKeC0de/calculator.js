@@ -1,29 +1,49 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Calculadora Online</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <header>
-            <h1> Bem Vindo a Calculadora Online  ! </h1> 
-        </header>
+    <header>
+        <h1>Bem Vindo a Calculadora Online !</h1>
+    </header>
+
     <section>
-            <div class="calc">
-                        <div class="disp">
-                                <span id="resultado">0</span>
-                        </div>
-                
-                    <div class="botoes">
-
-
-
-
-
-                    </div>
+        <div class="calc">
+            <div class="disp">
+                <span id="resultado">0</span>
             </div>
+
+            <div class="botoes">
+                <button class="clean" onclick="limpar()">Limpar</button>
+                <button onclick="inserir('/')">/</button>
+                <button onclick="inserir('*')">X</button>
+                <button class="op" onclick="apagar()">Apagar</button>
+
+                <button onclick="inserir('7')">7</button>
+                <button onclick="inserir('8')">8</button>
+                <button onclick="inserir('9')">9</button>
+                <button class="op" onclick="inserir('-')">-</button>
+
+                <button onclick="inserir('4')">4</button>
+                <button onclick="inserir('5')">5</button>
+                <button onclick="inserir('6')">6</button>
+                <button class="btn-op" onclick="inserir('+')">+</button>
+
+                <button onclick="inserir('1')">1</button>
+                <button onclick="inserir('2')">2</button>
+                <button onclick="inserir('3')">3</button>
+                <button class="btn-equal" onclick="calcular()">=</button>
+
+                <button class="btn-zero" onclick="inserir('0')">0</button>
+                <button onclick="inserir('.')">.</button>
+            </div>
+        </div>
     </section>
 
+    <script src="script.js"></script>
 </body>
 </html>
