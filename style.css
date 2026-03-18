@@ -1,10 +1,61 @@
 header h1{
     font-size: xxx-large;
     align-items: center;
-    text-align: center;color: rgb(0, 0, 0);
+    text-align: center;color: rgb(255, 255, 255);
 }
 header{
 
-    background-color: rgb(76, 104, 187);
+    background-color: rgb(58, 92, 54);
     padding: 25px;
+}
+
+section{
+
+    background-color: darkgray;
+    align-items: center;
+    text-align: center;
+    display: flow-root;
+    padding: 10px;
+
+}
+
+.calc{
+
+    background-color: rgb(58, 92, 54);
+    height: 500px;
+    width: 500px;
+    margin-top: 70px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    display: flow-root;
+    }
+
+.disp{
+
+    height: 50px;
+    width: 50px;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+     url(assets/transferir.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    padding-right: 250px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 2.5rem;
+    font
+    
+}
+.num{
+
+
+
 }
